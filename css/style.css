@@ -1046,6 +1046,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', end
 #our_partners_slider {
 	margin-bottom: 28px;
 }
+#our_partners_slider1 {
+    margin-bottom: 28px;
+}
 .our_partners_slider_item {
 	
 	text-align: center;
@@ -1560,7 +1563,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', end
 .hs_single_profile .hs_single_profile_detail {
 	background: #f5f5f5;
 	padding: 20px;
-	border-bottom: 2px solid #00ac7a;
+	border-bottom: 2px solid #2a73d4;
 	margin-bottom: 20px;
 }
 .hs_single_profile .hs_single_profile_detail > div > div {

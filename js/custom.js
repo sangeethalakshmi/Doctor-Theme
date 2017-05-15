@@ -374,13 +374,54 @@ Project:	Doctor Template
 						}
 					}
 				});
-				
 				// Custom Navigation Events
-				$(".our_partners > .customNavigation > .next").click(function(){
+				$(".our_partners1 > .customNavigation > .next").click(function(){
 					partners_owl.trigger('next.owl.carousel');
 				});
-				$(".our_partners > .customNavigation > .prev").click(function(){
+				$(".our_partners1 > .customNavigation > .prev").click(function(){
 					partners_owl.trigger('prev.owl.carousel');
+				});
+			}
+				//Meet Our Partners slider1
+			if($('#our_partners_slider1').length > 0){
+				var partners_owl1= $("#our_partners_slider1");
+				partners_owl1.owlCarousel({
+					autoplay:true,
+					loop:true,
+					autoplayTimeout:2000,
+					items:4,
+					dots:false,
+					margin:20,
+					stagePadding:0,
+					smartSpeed:450,
+					responsive:{
+						0:{
+							items:1
+						},
+						580:{
+							items:2
+						},
+						700:{
+							items:3
+						},
+						1024:{
+							items:4
+						},
+						1200:{
+							items:4
+						},
+						1480:{
+							items:4
+						}
+					}
+				});
+				
+				// Custom Navigation Events
+				$(".our_partners2 > .customNavigation > .next").click(function(){
+					partners_owl1.trigger('next.owl.carousel');
+				});
+				$(".our_partners2 > .customNavigation > .prev").click(function(){
+					partners_owl1.trigger('prev.owl.carousel');
 				});
 				
 			}
