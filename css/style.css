@@ -1996,7 +1996,7 @@ input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg {
 	background-position: 0 -20px;
 }
 .hs_comment_form textarea {
-	margin: 30px auto;
+	margin: 22px auto;
 	width: 100%;
 	resize: none;
 }
@@ -2785,3 +2785,11 @@ div[data-target] > div {
 }
 
 }
+
+.scrolltext{
+	font-size: 14px;
+    color: #ecec0d;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nopadding{padding:0px;}
